@@ -1,4 +1,9 @@
 #showhosts command (original author James Houx 2024-2-7)
+#This command allows you to create folders to organize your ssh hosts, while having
+#a convenient command to list everything you've configured.
+#Invoking parameterless 'showhosts' will list all of your ~/.ssh folders
+#Invoking 'showhosts [foldername] will lists all hosts in [foldername]/config
+#You can then use 'ssh [hostname] to connect to the host. :)
 #Usage:
 #Create folders in ~/.ssh
 #In each folder add a config file following the standard .ssh/config format. Name the file 'config'
